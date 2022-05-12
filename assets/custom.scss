@@ -1,1 +1,10 @@
 // Override this file to add your own SCSS styling.
+// Not sure why single-sidebar is set up to be on the right side, but changing it to be on the left as well.
+.single-sidebar {
+    .page-main {
+      grid-column: 3 / 7;
+    }
+    .page-sidebar {
+      grid-column: 1 / 3;
+    }
+  }
